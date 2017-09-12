@@ -1,0 +1,17 @@
+<div>
+  <h3>Barracks</h3>
+  <h6>Here you can buy more units and upgrade them</h6>
+  <hr/>
+  <div class="unit row no-gutters" *ngFor="let unit of units">
+    <div class="col-6">
+      <h5>{{unit.name}}</h5>
+      <ul>
+        <li>health: {{unit.health}}</li>
+        <li>damage: {{unit.damage}}</li>
+      </ul>
+    </div>
+    <div class="col-6">
+      Upgrade unit
+    </div>
+  </div>
+</div>

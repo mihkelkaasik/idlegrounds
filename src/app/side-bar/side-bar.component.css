@@ -1,0 +1,19 @@
+li {
+    background-color: #949494;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+a {
+    font: bold;
+}
+
+div {
+    background-color: #454545;
+}
+
+.list-group-item {
+    border-radius: 0 !important;
+}

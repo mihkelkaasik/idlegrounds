@@ -1,0 +1,15 @@
+<div>
+    <h3>Battleground</h3>
+    <h6>Fight targets to gain money and glory!</h6>
+    <hr/>
+    <div class="target row no-gutters" *ngFor="let target of targets">
+      <div class="col-12">
+        <h5>{{target.name}}</h5>
+        <ul>
+          <li>health: {{target.health}}</li>
+          <li>damage: {{target.damage}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
